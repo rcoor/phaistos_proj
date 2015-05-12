@@ -1,0 +1,3 @@
+;Entry;Protein;Source;Mutation;ddG;Measure;Mesthod;REFERENCE;log(p);d_log(p);dssp;WT_AA;Position;Mut_AA
+0;6792;Thioredoxin;Escherichia coli;['WILD'];0;DSC;GdnHCl;PROTEIN SCI 8, 2455-2459 (1999) PMID: 10595548;246.15209837905365;0.0;None;Non;Non;WILD
+31;18859;Thioredoxin;Escherichia coli;['T', '77', 'C,', 'V', '91', 'C'];02.10;DSC;Thermal;BIOCHEMISTRY 44, 14638-14646 (2005) PMID: 16262263;252.53169257922877;-6.37959420017512;E;TV;77,91,;CC

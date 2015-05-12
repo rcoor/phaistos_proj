@@ -1,0 +1,321 @@
+-3,3
+-0,5
+-0.1
+snpk2=read.table("Workbook5.csv")
+snpk2=read.table("Workbook5")
+setwd("~/phaistos_proj")
+snpk2=read.table("Workbook5")
+snpk2
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG")#
+logP=read.table("logP")
+logP
+barplot(t(as.matrix(dG)), col=rainbow_hcl(2), border=NA, main="K=2", cex.names=0.6, las=2, ylab="")
+barplot(t(as.matrix(dG)), border=NA, main="K=2", cex.names=0.6, las=2, ylab="")
+barplot(t(as.matrix(logP)), border=NA, main="K=2", cex.names=0.6, las=2, ylab="")
+barplot(t(as.matrix(∆logP)), border=NA, main="K=2", cex.names=0.6, las=2, ylab="")
+∆logP=read.table("logP")
+deltalogP=read.table("logP")
+barplot(t(as.matrix(deltalogP)), border=NA, main="K=2", cex.names=0.6, las=2, ylab="")
+barplot(t(as.matrix(deltalogP)), border=NA, main="delta log(P)", cex.names=0.6, las=2, ylab="")
+prop.test((dG,deltalogP),correct=FALSE)
+prop.test(dG,deltalogP,correct=FALSE)
+prop.test((dG,deltalogP),correct=FALSE)
+prop.test(table(dG,deltalogP),correct=FALSE)
+prop.test(table(dG, deltalogP), correct=FALSE)
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG")#
+deltalogP=read.table("logP")#
+#
+dG#
+logP#
+library(colorspace)#
+#
+prop.test(table(dG, deltalogP), correct=FALSE)
+library(MASS)
+library(MASS)#
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG")#
+deltalogP=read.table("logP")
+prop.test(table(dG, deltalogP), correct=FALSE)
+table(dG,deltalogP)
+values <- table(dG$dg,deltalogP$dP)
+values
+values$dg
+values$dG
+values <- table(dG,deltalogP)
+values <- table(c(dG),c(deltalogP))
+cor(dG,deltalogP)
+library(Hmisc)
+matrix(dG,deltalogP)
+matrix(dG, 4)
+thematrix <- matrix(dG, 4)
+thematrix
+rcorr(dG, type="pearson")
+MyTable <- table(dG, deltalogP)
+MyTable <- table(sort(dG), sort(deltalogP))
+deltalogP
+MyTable <- data.fram(dG, deltalogP)
+MyTable <- data.frame(dG, deltalogP)
+MyTable
+rcorr(my_fram, type="pearson")
+rcorr(my_frame, type="pearson")
+my_frame <- data.frame(dG, deltalogP)
+rcorr(my_frame, type="pearson")
+str(my_fram)
+str(my_frame)
+str(my_frame.V1)
+str(my_frame)
+rcorr(my_frame, type="pearson")
+as.matrix(my_frame)
+rcorr(as.matrix(my_frame), type="pearson")
+e^deltalogP
+exp(deltalogP)
+deltalogP
+my_frame2 <- data.frame(exp(dG,deltalogP)
+rcorr(as.matrix(my_frame2), type="pearson")
+my_frame2 <- data.frame(exp(dG,deltalogP)
+rcorr(as.matrix(my_frame2), type="pearson")
+my_frame2 <- data.frame(exp(dG),deltalogP)
+rcorr(as.matrix(my_frame2), type="pearson")
+rcorr(as.matrix(my_frame), type="pearson")
+qqnorm(my_frame)
+qqnorm(dG)
+qqnorm(dG[,1])
+qqline(dG[,1])
+qqnorm(dG[,1])
+qqline(dG[,1])
+qqnorm(deltalogP[,1])
+qqline(deltalogP[,1])
+plot(density(deltalogP[,1]))
+par(mfrow=c(3,2))#
+qqnorm(dG[,1])#
+qqline(dG[,1])#
+#
+qqnorm(deltalogP[,1])#
+qqline(deltalogP[,1])
+par(mfrow=c(1,2))#
+qqnorm(dG[,1])#
+qqline(dG[,1])#
+#
+qqnorm(deltalogP[,1])#
+qqline(deltalogP[,1])
+dnrom(deltalogP)
+dnorm(deltalogP)
+dnorm(deltalogP[,1])
+plot(dnorm(deltalogP[,1]))
+plot(pnorm(deltalogP[,1]))
+plot(qnorm(deltalogP[,1]))
+plot(qnorm(0.95))
+shapiro.test(rnorm(deltalogP[,1]))
+shapiro.test(rnorm(dG[,1]))
+par(mfrow=c(1,2))#
+qqnorm(dG[,1])#
+qqline(dG[,1])#
+#
+qqnorm(deltalogP[,1])#
+qqline(deltalogP[,1])
+hist(deltalogP[,1])
+hist(dG[,1])
+hist(ex(deltalogP[,1])
+hist(exp(deltalogP[,1])
+hist(exp(deltalogP[,1]))
+hist(deltalogP[,1])
+hist(deltalogP[,1],nbins = 25)
+hist(deltalogP[,1],breaks = 25)
+hist(deltalogP[,1],breaks = 100)
+hist(deltalogP[,1],breaks = 20)
+hist(deltalogP[,1],breaks = 1)
+hist(deltalogP[,1],breaks = 2)
+hist(deltalogP[,1],breaks = 15)
+par(mfrow=c(3,2))#
+qqnorm(dG[,1])#
+qqline(dG[,1])#
+#
+qqnorm(deltalogP[,1])#
+qqline(deltalogP[,1])#
+#
+hist(dG[,1])#
+hist(deltalogP[,1],breaks = 15)
+rcorr(as.matrix(my_frame), type="pearson")
+plot(dG[,1], deltalogP[,1])
+abline(lm(dG[,1] ~ deltalogP[,1])
+plot(dG[,1], deltalogP[,1])
+abline(lm(dG[,1] ~ deltalogP[,1])
+plot(dG[,1], deltalogP[,1])
+(
+abline(lm(dG[,1] ~ deltalogP[,1]))
+plot(dG[,1], deltalogP[,1])
+abline(lm(dG[,1] ~ deltalogP[,1]))
+plot(dG[,1], deltalogP[,1])#
+abline(lm(dG[,1] ~ deltalogP[,1]))#
+rcorr(as.matrix(my_frame), type="pearson")
+plot(dG[,1], deltalogP[,1],pch=16)
+plot(dG[,1], deltalogP[,1],pch=1)
+plot(dG[,1], deltalogP[,1],pch=2)
+plot(dG[,1], deltalogP[,1],pch=3)
+plot(dG[,1], deltalogP[,1],pch=4)
+plot(dG[,1], deltalogP[,1],pch=5)
+plot(dG[,1], deltalogP[,1],pch=6)
+plot(dG[,1], deltalogP[,1],pch=7)
+plot(dG[,1], deltalogP[,1],pch=8)
+plot(dG[,1], deltalogP[,1],pch=9)
+plot(dG[,1], deltalogP[,1],pch=10)
+plot(dG[,1], deltalogP[,1],pch=11)
+plot(dG[,1], deltalogP[,1],pch=12)
+plot(dG[,1], deltalogP[,1],pch=13)
+plot(dG[,1], deltalogP[,1],pch=14)
+plot(dG[,1], deltalogP[,1],pch=15)
+plot(dG[,1], deltalogP[,1],pch=16)
+plot(dG[,1], deltalogP[,1],pch=17)
+plot(dG[,1], deltalogP[,1],pch=200)
+plot(dG[,1], deltalogP[,1],pch=100)
+plot(dG[,1], deltalogP[,1],pch=99)
+plot(dG[,1], deltalogP[,1],)
+plot(dG[,1], deltalogP[,1])
+abline(lm(dG[,1] ~ deltalogP[,1]))
+abline(lm(dG[,1] ~ deltalogP[,1])
+abline(lm(dG[,1] ~ deltalogP[,1]
+plot(dG[,1], deltalogP[,1],xlabel="hello")
+plot(dG[,1], deltalogP[,1],xlab="hello")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="∆log(P)")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="∆log(P) MuMu")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="∆log(P) mumu")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="∆log(P) MuMu")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="∆log(P) <i>MuMu")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="expression(bla~bla~italic(bli~bli)~bla~bold(blom)~italic(bla))))
+,
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab="expression(bla~bla~italic(bli~bli)~bla~bold(blom)~italic(bla))))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression(bla~bla~italic(bli~bli)~bla~bold(blom)~italic(bla))))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression(bla~bla~italic(bli~bli)~bla~bold(blom)~italic(bla)))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression(italic(bli~bli)))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression(∆log(P)~italic(bli~bli)))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression("∆log(P)"~italic(bli~bli)))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+rcorr(as.matrix(my_frame), type="pearson")
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+plot(dG[,1], exp(deltalogP[,1]),xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+plot(dG[,1]*100, exp(deltalogP[,1]),xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+plot(log(dG[,1]), exp(deltalogP[,1]),xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+plot(log(dG[,1]), deltalogP[,1],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+plot(dG[,1], deltalogP[,1],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+setwd("~/phaistos_proj")
+dG=read.table("deltaG_new")
+dG
+dG[0]
+dG[0,1]
+dG[,1]
+dG[,2]
+deltalogP=read.table("stability_data")
+deltalogP
+deltalogP[0,3]
+deltalogP[0,2]
+deltalogP[,2]
+deltalogP[,3]
+plot(dG[,2], deltalogP[,3],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+rcorr(as.matrix(my_frame), type="pearson")
+qqnorm(dG[,2])
+qqline(dG[,2])
+(dG[,2])#
+qqline(dG[,2])
+qqnorm(dG[,2])#
+qqline(dG[,2])
+qqnorm(deltalogP[,3])#
+qqline(deltalogP[,3])
+hist(dG[,3])
+cor(dG,deltalogP)
+cor(dG[,2],deltalogP[,3])
+my_frame <- data.frame(dG[,2], deltalogP[,3])
+rcorr(as.matrix(my_frame), type="pearson")
+plot(dG[,2], deltalogP[,3],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+library(Hmisc)#
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG_new")#
+deltalogP=read.table("stability_data")#
+#
+my_frame <- data.frame(dG[,2], deltalogP[,3])#
+str(my_frame)#
+plot(dG[,2], deltalogP[,3],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))#
+#
+rcorr(as.matrix(my_frame), type="pearson")#
+par(mfrow=c(3,2))#
+qqnorm(dG[,2])#
+qqline(dG[,2])#
+#
+qqnorm(deltalogP[,3])#
+qqline(deltalogP[,3])#
+#
+shapiro.test(rnorm(deltalogP[,1]))#
+shapiro.test(rnorm(dG[,1]))#
+#
+cor(dG[,2],deltalogP[,3])#
+#
+library(colorspace)#
+#
+prop.test(()), correct=FALSE)#
+barplot(t(as.matrix(dG)), border=NA, main="dG", cex.names=0.6, las=2, ylab="")#
+barplot(t(as.matrix(deltalogP)), border=NA, main="delta log(P)", cex.names=0.6, las=2, ylab="")
+rcorr(as.matrix(my_frame), type="pearson")
+library(Hmisc)#
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG_new")#
+deltalogP=read.table("stability_data")#
+#
+my_frame <- data.frame(dG[,2], deltalogP[,3])#
+str(my_frame)
+plot(dG[,2], deltalogP[,3],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+library(Hmisc)#
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG_new")#
+deltalogP=read.table("stability_data")#
+#
+my_frame <- data.frame(dG[,2], deltalogP[,3])#
+str(my_frame)#
+plot(dG[,2], deltalogP[,3],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))#
+#
+rcorr(as.matrix(my_frame), type="pearson")#
+par(mfrow=c(3,2))#
+qqnorm(dG[,2])#
+qqline(dG[,2])#
+#
+qqnorm(deltalogP[,3])#
+qqline(deltalogP[,3])#
+#
+shapiro.test(rnorm(deltalogP[,1]))#
+shapiro.test(rnorm(dG[,1]))#
+#
+cor(dG[,2],deltalogP[,3])#
+#
+library(colorspace)#
+#
+prop.test(()), correct=FALSE)#
+barplot(t(as.matrix(dG)), border=NA, main="dG", cex.names=0.6, las=2, ylab="")#
+barplot(t(as.matrix(deltalogP)), border=NA, main="delta log(P)", cex.names=0.6, las=2, ylab="")
+rcorr(as.matrix(my_frame), type="pearson")
+plot(dG[,2], deltalogP[,3],xlab="∆∆G",ylab=expression("∆log(P)"~italic(MuMu)))
+dname( my_frame)
+pname( my_frame)
+library(Hmisc)#
+setwd("~/phaistos_proj")#
+dG=read.table("deltaG_new")#
+deltalogP=read.table("stability_data")#
+#
+my_frame <- data.frame(dG[,2], deltalogP[,3])#
+str(my_frame)#
+#
+hist(deltalogP[,3]
+hist(deltalogP[,3])
+hist(deltalogP[,3],probability= TRUE)
+hist(deltalogP[,3],probability= TRUE, breaks = "FD")
+hist(deltalogP[,3],probability= TRUE, breaks = 20)
+hist(deltalogP[,3],probability= TRUE, breaks = 15)
+hist(deltalogP[,3],probability= TRUE, breaks = 10)
+hist(deltalogP[,3],probability= TRUE, breaks = 11)
+hist(deltalogP[,3],probability= TRUE, breaks = 12)
+hist(deltalogP[,3],probability= TRUE, breaks = 11)
+hist(deltalogP[,3],probability= TRUE, breaks = 20)
+hist(deltalogP[,3],probability= TRUE, breaks = 100)
+hist(deltalogP[,3],probability= TRUE, breaks = 15)
+hist(deltalogP[,3],probability= TRUE, breaks = 11)
+hist(deltalogP[,3],probability= TRUE, breaks = 11)

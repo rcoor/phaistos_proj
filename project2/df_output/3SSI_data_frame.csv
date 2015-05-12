@@ -1,0 +1,10 @@
+;Entry;Protein;Source;Mutation;ddG;Measure;Mesthod;REFERENCE;log(p);d_log(p);dssp;WT_AA;Position;Mut_AA
+0;3065;Subtilisin inhibitor;Streptomyces;['WILD'];0;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783216;264.7325528831142;0.0;None;Non;Non;WILD
+59;14127;Subtilisin inhibitor;Streptomyces;['M', '73', 'K'];01.27;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;262.8978762876927;1.8346765954214561;-;M;73,;K
+60;14128;Subtilisin inhibitor;Streptomyces;['M', '73', 'D'];01.08;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;262.9296129547462;1.802939928368005;-;M;73,;D
+61;14129;Subtilisin inhibitor;Streptomyces;['M', '73', 'E'];00.35;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;262.73599365134476;1.9965592317694245;-;M;73,;E
+62;14130;Subtilisin inhibitor;Streptomyces;['M', '73', 'G'];-0.21;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;262.9630667803924;1.7694861027217712;-;M;73,;G
+63;14131;Subtilisin inhibitor;Streptomyces;['M', '73', 'A'];00.54;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;263.31104252935995;1.421510353754229;-;M;73,;A
+64;14132;Subtilisin inhibitor;Streptomyces;['M', '73', 'V'];-0.46;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;264.0075530447025;0.7249998384116907;-;M;73,;V
+65;14133;Subtilisin inhibitor;Streptomyces;['M', '73', 'L'];-0.13;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;263.8020446056007;0.9305082775134679;-;M;73,;L
+66;14134;Subtilisin inhibitor;Streptomyces;['M', '73', 'I'];-0.73;DSC;Thermal;J MOL BIOL 249, 646-653 (1995) PMID: 7783217;264.3169492272938;0.41560365582040504;-;M;73,;I

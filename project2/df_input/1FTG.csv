@@ -1,0 +1,72 @@
+Entry;Protein;Source;Mutation;ddG;Measure;Mesthod;REFERENCE
+17927;Apoflavodoxin;Anabaena;WILD;0;Fluorescence;Urea;J MOL BIOL 344, 223-237 (2004) PMID: 15504412
+17928;Apoflavodoxin;Anabaena;E 40 K;NULL;Fluorescence;Urea;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17929;Apoflavodoxin;Anabaena;E 61 K;NULL;Fluorescence;Urea;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17932;Apoflavodoxin;Anabaena;D 75 K;NULL;Fluorescence;Urea;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17933;Apoflavodoxin;Anabaena;D 126 K;NULL;Fluorescence;Urea;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17934;Apoflavodoxin;Anabaena;D 150 K;NULL;Fluorescence;Urea;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17937;Apoflavodoxin;Anabaena;E 40 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17938;Apoflavodoxin;Anabaena;E 61 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17941;Apoflavodoxin;Anabaena;D 75 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17942;Apoflavodoxin;Anabaena;D 126 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17943;Apoflavodoxin;Anabaena;D 150 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17946;Apoflavodoxin;Anabaena;E 40 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17947;Apoflavodoxin;Anabaena;E 61 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17950;Apoflavodoxin;Anabaena;D 75 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17951;Apoflavodoxin;Anabaena;D 126 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17952;Apoflavodoxin;Anabaena;D 150 K;NULL;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17954;Apoflavodoxin;Anabaena;E 40 K;-0.06;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17955;Apoflavodoxin;Anabaena;E 61 K;-0.46;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17958;Apoflavodoxin;Anabaena;D 75 K;-0.01;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17959;Apoflavodoxin;Anabaena;D 126 K;-0.58;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17960;Apoflavodoxin;Anabaena;D 150 K;00.01;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17962;Apoflavodoxin;Anabaena;E 40 K;-1.16;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17963;Apoflavodoxin;Anabaena;E 61 K;00.22;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17966;Apoflavodoxin;Anabaena;D 75 K;-1.14;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17967;Apoflavodoxin;Anabaena;D 126 K;00.03;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17968;Apoflavodoxin;Anabaena;D 150 K;00.21;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17970;Apoflavodoxin;Anabaena;E 40 K;-1.22;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17971;Apoflavodoxin;Anabaena;E 61 K;-0.24;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17974;Apoflavodoxin;Anabaena;D 75 K;-1.15;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17975;Apoflavodoxin;Anabaena;D 126 K;-0.55;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17976;Apoflavodoxin;Anabaena;D 150 K;00.22;CD;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17979;Apoflavodoxin;Anabaena;E 40 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17981;Apoflavodoxin;Anabaena;D 75 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17982;Apoflavodoxin;Anabaena;D 126 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004)
+17983;Apoflavodoxin;Anabaena;D 150 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17986;Apoflavodoxin;Anabaena;E 40 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17988;Apoflavodoxin;Anabaena;D 75 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17989;Apoflavodoxin;Anabaena;D 126 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17990;Apoflavodoxin;Anabaena;D 150 K;NULL;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17992;Apoflavodoxin;Anabaena;E 40 K;-0.40;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17994;Apoflavodoxin;Anabaena;D 75 K;-0.25;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17995;Apoflavodoxin;Anabaena;D 126 K;-0.71;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17996;Apoflavodoxin;Anabaena;D 150 K;0,041666667;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+17998;Apoflavodoxin;Anabaena;E 40 K;-1.12;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18000;Apoflavodoxin;Anabaena;D 75 K;-0.73;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18001;Apoflavodoxin;Anabaena;D 126 K;-0.28;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18002;Apoflavodoxin;Anabaena;D 150 K;-0.12;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18004;Apoflavodoxin;Anabaena;E 40 K;-1.52;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18006;Apoflavodoxin;Anabaena;D 75 K;-0.98;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18007;Apoflavodoxin;Anabaena;D 126 K;-0.99;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18008;Apoflavodoxin;Anabaena;D 150 K;00.48;DSC;Thermal;J MOL BIOL 344, 223-237 (2004) PMID: 15504413
+18016;Apoflavodoxin;Anabaena;S 71 A;NULL;CD;Urea;J MOL BIOL 344, 239-255 (2004) PMID: 15504414
+18035;Apoflavodoxin;Anabaena;S 71 A;NULL;CD;Thermal;J MOL BIOL 344, 239-255 (2004) PMID: 15504414
+18054;Apoflavodoxin;Anabaena;S 71 A;NULL;CD;Thermal;J MOL BIOL 344, 239-255 (2004) PMID: 15504414
+18072;Apoflavodoxin;Anabaena;S 71 A;-0.11;CD;Thermal;J MOL BIOL 344, 239-255 (2004) PMID: 15504414
+18090;Apoflavodoxin;Anabaena;S 71 A;00.13;CD;Thermal;J MOL BIOL 344, 239-255 (2004) PMID: 15504414
+19971;Apoflavodoxin;Anabaena;E 40 K;NULL;Fluorescence;Urea;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19973;Apoflavodoxin;Anabaena;G 68 A;NULL;Fluorescence;Urea;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19975;Apoflavodoxin;Anabaena;D 75 K;NULL;Fluorescence;Urea;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19979;Apoflavodoxin;Anabaena;E 107 A;NULL;Fluorescence;Urea;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19980;Apoflavodoxin;Anabaena;Q 111 G;NULL;Fluorescence;Urea;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19986;Apoflavodoxin;Anabaena;E 40 K;00.17;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19988;Apoflavodoxin;Anabaena;G 68 A;00.38;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19990;Apoflavodoxin;Anabaena;D 75 K;00.40;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19994;Apoflavodoxin;Anabaena;E 107 A;00.15;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+19995;Apoflavodoxin;Anabaena;Q 111 G;00.22;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+20002;Apoflavodoxin;Anabaena;E 40 K;NULL;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+20004;Apoflavodoxin;Anabaena;G 68 A;NULL;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+20006;Apoflavodoxin;Anabaena;D 75 K;NULL;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+20010;Apoflavodoxin;Anabaena;E 107 A;NULL;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364
+20011;Apoflavodoxin;Anabaena;Q 111 G;NULL;Fluorescence, CD;Thermal;J MOL BIOL 356, 354-366 (2006) PMID: 16364364

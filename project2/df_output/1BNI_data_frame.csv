@@ -1,0 +1,164 @@
+;Entry;Protein;Source;Mutation;ddG;Tm;Measure;Mesthod;REFERENCE;log(p);d_log(p);dssp;WT_AA;Position;Mut_AA
+0;38;Barnase;Bacillus amyloliquef;['WILD'];00.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.8808361444273;0.0;None;Non;Non;WILD
+1;39;Barnase;Bacillus amyloliquef;['I', '4', 'V'];-0.60;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.0621049275538;-0.18126878312648387;-;I;4,;V
+2;40;Barnase;Bacillus amyloliquef;['I', '4', 'A'];-1.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.8186769398135;-1.9378407953861938;H;I;4,;A
+3;41;Barnase;Bacillus amyloliquef;['N', '5', 'A'];-1.90;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.68408733545;-1.8032511910226958;S;N;5,;A
+4;42;Barnase;Bacillus amyloliquef;['T', '6', 'G'];-1.20;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;263.69461438327187;-4.813778238844577;H;T;6,;G
+5;43;Barnase;Bacillus amyloliquef;['T', '6', 'A'];-2.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;261.68601927327046;-2.8051831288431686;H;T;6,;A
+6;44;Barnase;Bacillus amyloliquef;['D', '8', 'A'];-0.90;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.1527737185806;-0.27193757415329856;H;D;8,;A
+7;45;Barnase;Bacillus amyloliquef;['V', '10', 'T'];-2.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;261.5796212601369;-2.6987851157095974;H;V;10,;T
+8;46;Barnase;Bacillus amyloliquef;['V', '10', 'A'];-3.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.7730418629843;-1.8922057185570225;H;V;10,;A
+9;47;Barnase;Bacillus amyloliquef;['D', '12', 'A'];-0.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.51193900174326;0.36889714268403395;H;D;12,;A
+10;48;Barnase;Bacillus amyloliquef;['Y', '13', 'A'];-3.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.19704004217834;-0.31620389775105195;H;Y;13,;A
+11;49;Barnase;Bacillus amyloliquef;['L', '14', 'A'];-4.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.70469287080294;-1.8238567263756522;H;L;14,;A
+12;50;Barnase;Bacillus amyloliquef;['T', '16', 'S'];-1.70;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.4883007168237;0.3925354276036046;S;T;16,;S
+13;51;Barnase;Bacillus amyloliquef;['T', '16', 'R'];00.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.6358468515727;0.2449892928545978;H;T;16,;R
+14;52;Barnase;Bacillus amyloliquef;['Y', '17', 'A'];-2.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.5808326034392;0.30000354098808657;S;Y;17,;A
+15;53;Barnase;Bacillus amyloliquef;['N', '23', 'A'];-2.20;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;256.88002510850083;2.0008110359264606;S;N;23,;A
+16;54;Barnase;Bacillus amyloliquef;['Y', '24', 'F'];00.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;257.71381925133534;1.1670168930919544;S;Y;24,;F
+17;55;Barnase;Bacillus amyloliquef;['I', '25', 'V'];-1.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.37178809506946;-0.49095195064217023;S;I;25,;V
+18;56;Barnase;Bacillus amyloliquef;['I', '25', 'A'];-3.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.8028768656485;-0.9220407212212081;S;I;25,;A
+19;57;Barnase;Bacillus amyloliquef;['T', '26', 'G'];-1.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.6939739013049;-0.8131377568776088;S;T;26,;G
+20;58;Barnase;Bacillus amyloliquef;['T', '26', 'A'];-1.90;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.5664184585844;0.31441768584289775;S;T;26,;A
+21;59;Barnase;Bacillus amyloliquef;['K', '27', 'G'];-0.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.8506546451263;-1.9698185006990343;S;K;27,;G
+22;60;Barnase;Bacillus amyloliquef;['E', '29', 'G'];-1.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;261.33693677436696;-2.4561006299396695;S;E;29,;G
+23;61;Barnase;Bacillus amyloliquef;['Q', '31', 'S'];-0.20;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.57292963562725;0.3079065088000448;H;Q;31,;S
+24;62;Barnase;Bacillus amyloliquef;['Q', '31', 'A'];00.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.4174609385647;0.46337520586257597;S;Q;31,;A
+25;63;Barnase;Bacillus amyloliquef;['L', '33', 'Q'];-1.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.52649280822953;-0.6456566638022423;-;L;33,;Q
+26;64;Barnase;Bacillus amyloliquef;['V', '36', 'A'];-1.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.1836275402614;-0.30279139583410597;H;V;36,;A
+27;65;Barnase;Bacillus amyloliquef;['V', '36', 'T'];-1.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.14144629290126;0.7393898515260275;H;V;36,;T
+28;66;Barnase;Bacillus amyloliquef;['N', '41', 'D'];-2.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.6664114972325;0.21442464719478949;H;N;41,;D
+29;67;Barnase;Bacillus amyloliquef;['V', '45', 'A'];-1.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.26772977087234;-0.386893626445044;H;V;45,;A
+30;68;Barnase;Bacillus amyloliquef;['V', '45', 'T'];-2.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.81323719573004;0.06759894869725258;H;V;45,;T
+31;69;Barnase;Bacillus amyloliquef;['I', '51', 'V'];-1.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.35863462017085;0.5222015242564453;H;I;51,;V
+32;70;Barnase;Bacillus amyloliquef;['I', '51', 'A'];-4.70;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.6705454889767;-0.7897093445494079;T;I;51,;A
+33;71;Barnase;Bacillus amyloliquef;['D', '54', 'A'];-3.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.4851735043079;-0.604337359880617;T;D;54,;A
+34;72;Barnase;Bacillus amyloliquef;['D', '54', 'N'];-2.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.36321739114743;-0.4823812467201378;T;D;54,;N
+35;73;Barnase;Bacillus amyloliquef;['I', '55', 'V'];-0.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.23405720707325;0.6467789373540427;T;I;55,;V
+36;74;Barnase;Bacillus amyloliquef;['I', '55', 'A'];-1.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.263193464551;0.6176426798762691;T;I;55,;A
+37;75;Barnase;Bacillus amyloliquef;['I', '55', 'T'];-0.60;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;257.5661992038207;1.31463694060659;T;I;55,;T
+38;76;Barnase;Bacillus amyloliquef;['N', '58', 'A'];-2.70;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.03693394909976;-0.15609780467246992;T;N;58,;A
+39;77;Barnase;Bacillus amyloliquef;['N', '58', 'D'];00.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.3823747500956;-1.5015386056683155;T;N;58,;D
+40;78;Barnase;Bacillus amyloliquef;['K', '62', 'R'];-0.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.1017112377732;-0.22087509334591005;H;K;62,;R
+41;79;Barnase;Bacillus amyloliquef;['I', '76', 'V'];-0.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;257.48463366158677;1.396202482840522;H;I;76,;V
+42;80;Barnase;Bacillus amyloliquef;['I', '76', 'A'];-1.90;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;256.6358921208348;2.2449440235924953;S;I;76,;A
+43;81;Barnase;Bacillus amyloliquef;['N', '77', 'A'];-1.60;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.98137508663655;-1.1005389422092549;S;N;77,;A
+44;82;Barnase;Bacillus amyloliquef;['Y', '78', 'F'];-1.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.1185663196711;-0.23773017524382567;S;Y;78,;F
+45;83;Barnase;Bacillus amyloliquef;['N', '84', 'A'];-2.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;256.6157871698449;2.2650489745823847;S;N;84,;A
+46;84;Barnase;Bacillus amyloliquef;['I', '88', 'V'];-1.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.7041283613664;0.1767077830609196;S;I;88,;V
+47;85;Barnase;Bacillus amyloliquef;['I', '88', 'A'];-4.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.96960016096153;-1.0887640165342418;T;I;88,;A
+48;86;Barnase;Bacillus amyloliquef;['L', '89', 'V'];-0.30;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.1651922939345;0.7156438504927678;-;L;89,;V
+49;87;Barnase;Bacillus amyloliquef;['L', '89', 'T'];-2.50;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.79938557976504;0.08145056466224787;-;L;89,;T
+50;88;Barnase;Bacillus amyloliquef;['S', '91', 'A'];-1.90;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.78845556226753;0.09238058215976253;-;S;91,;A
+51;89;Barnase;Bacillus amyloliquef;['S', '92', 'A'];-2.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.7018473445424;0.17898879988490535;-;S;92,;A
+52;90;Barnase;Bacillus amyloliquef;['I', '96', 'V'];-0.90;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.8838423809485;-1.0030062365212302;-;I;96,;V
+53;91;Barnase;Bacillus amyloliquef;['I', '96', 'A'];-3.20;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;262.6699771538107;-3.7891410093833997;S;I;96,;A
+54;92;Barnase;Bacillus amyloliquef;['T', '99', 'V'];-2.70;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.59041975381933;-1.7095836093920411;E;T;99,;V
+55;93;Barnase;Bacillus amyloliquef;['Y', '103', 'F'];00.00;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.23021437327947;-0.3493782288521743;H;Y;103,;F
+56;94;Barnase;Bacillus amyloliquef;['T', '105', 'V'];-2.20;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.7520545960191;-0.8712184515918011;H;T;105,;V
+57;95;Barnase;Bacillus amyloliquef;['I', '109', 'V'];-0.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.95917968627265;-0.07834354184535641;H;I;109,;V
+58;96;Barnase;Bacillus amyloliquef;['I', '109', 'A'];-2.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.64577595052884;-1.7649398061015518;E;I;109,;A
+59;97;Barnase;Bacillus amyloliquef;['R', '110', 'A'];-0.40;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;260.93335082148366;-2.052514677056365;H;R;110,;A
+61;171;Barnase;Bacillus amyloliquef;['A', '32', 'R'];-0.10;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.3099773592976;-0.4291412148702989;H;A;32,;R
+62;172;Barnase;Bacillus amyloliquef;['A', '32', 'K'];-0.20;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;258.8048653025413;0.07597084188597591;H;A;32,;K
+63;173;Barnase;Bacillus amyloliquef;['A', '32', 'M'];-0.30;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;261.0397182101736;-2.1588820657462975;H;A;32,;M
+64;174;Barnase;Bacillus amyloliquef;['A', '32', 'L'];-0.30;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;260.2813906723353;-1.4005545279080138;H;A;32,;L
+65;175;Barnase;Bacillus amyloliquef;['A', '32', 'S'];-0.40;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;258.84349057891;0.03734556551728474;-;A;32,;S
+66;176;Barnase;Bacillus amyloliquef;['A', '32', 'Q'];-0.50;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.5446452471264;-0.6638091026991333;-;A;32,;Q
+67;177;Barnase;Bacillus amyloliquef;['A', '32', 'E'];-0.60;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;258.9290527142527;-0.04821656982539935;-;A;32,;E
+68;178;Barnase;Bacillus amyloliquef;['A', '32', 'N'];-0.70;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.478129567277;-0.5972934228497024;S;A;32,;N
+69;179;Barnase;Bacillus amyloliquef;['A', '32', 'F'];-0.70;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;261.661762476519;-2.780926332091724;E;A;32,;F
+70;180;Barnase;Bacillus amyloliquef;['A', '32', 'D'];-0.70;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.1545656630707;-0.27372951864339257;H;A;32,;D
+71;181;Barnase;Bacillus amyloliquef;['A', '32', 'H'];-0.80;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;260.6483416264046;-1.7675054819773095;-;A;32,;H
+72;182;Barnase;Bacillus amyloliquef;['A', '32', 'T'];-0.80;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.8711811980665;-0.9903450536392029;H;A;32,;T
+73;183;Barnase;Bacillus amyloliquef;['A', '32', 'I'];-0.80;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;261.30534029935507;-2.4245041549277744;H;A;32,;I
+74;184;Barnase;Bacillus amyloliquef;['A', '32', 'Y'];-0.80;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;262.2287136065193;-3.347877462092015;-;A;32,;Y
+75;185;Barnase;Bacillus amyloliquef;['A', '32', 'V'];-0.90;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;260.9898478107563;-2.1090116663290246;-;A;32,;V
+76;186;Barnase;Bacillus amyloliquef;['A', '32', 'G'];-0.90;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.9844001851879;-1.1035640407606024;-;A;32,;G
+77;187;Barnase;Bacillus amyloliquef;['A', '32', 'W'];-1.00;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;262.924473096996;-4.043636952568704;T;A;32,;W
+78;188;Barnase;Bacillus amyloliquef;['A', '32', 'C'];-1.00;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;262.4314380108949;-3.550601866467616;-;A;32,;C
+79;189;Barnase;Bacillus amyloliquef;['A', '32', 'P'];-4.10;;Fluorescence;Urea;J MOL BIOL 227, 560-568 (1992) PMID: 1404369;259.38125992402735;-0.5004237796000552;-;A;32,;P
+80;190;Barnase;Bacillus amyloliquef;['S', '28', 'E'];00.40;;Fluorescence;Urea;J MOL BIOL 220, 779-788 (1991) PMID: 1870131;258.0115250053889;0.8693111390384161;-;S;28,;E
+82;510;Barnase;Bacillus amyloliquef;['Q', '15', 'I'];01.00;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;258.28619723966534;0.5946389047619505;-;Q;15,;I
+84;512;Barnase;Bacillus amyloliquef;['H', '18', 'K'];-1.20;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;258.02277564870985;0.8580604957174387;E;H;18,;K
+85;513;Barnase;Bacillus amyloliquef;['K', '19', 'R'];00.20;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;259.5560777546868;-0.6752416102594907;-;K;19,;R
+86;514;Barnase;Bacillus amyloliquef;['E', '29', 'Q'];00.00;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;259.92681910640624;-1.0459829619789502;H;E;29,;Q
+88;516;Barnase;Bacillus amyloliquef;['D', '44', 'E'];00.10;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;257.8845279978847;0.9963081465426171;H;D;44,;E
+91;519;Barnase;Bacillus amyloliquef;['G', '65', 'S'];00.50;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;257.38016906091093;1.5006670835163618;E;G;65,;S
+92;520;Barnase;Bacillus amyloliquef;['K', '66', 'A'];00.20;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;258.2788152135886;0.6020209308387052;H;K;66,;A
+93;521;Barnase;Bacillus amyloliquef;['T', '79', 'V'];00.30;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;260.6697234023266;-1.7888872578993187;H;T;79,;V
+94;522;Barnase;Bacillus amyloliquef;['S', '85', 'A'];-0.12;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;260.55040594679366;-1.669569802366368;H;S;85,;A
+95;523;Barnase;Bacillus amyloliquef;['I', '88', 'L'];-0.30;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;260.4018499743734;-1.5210138299461278;T;I;88,;L
+97;525;Barnase;Bacillus amyloliquef;['Q', '104', 'A'];-0.20;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;258.4947273719916;0.38610877243570485;-;Q;104,;A
+98;526;Barnase;Bacillus amyloliquef;['K', '108', 'R'];0,0625;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;259.1316544660246;-0.25081832159730766;-;K;108,;R
+100;1670;Barnase;Bacillus amyloliquef;['T', '6', 'P'];-3.08;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;262.8480539974055;-3.9672178529781945;-;T;6,;P
+101;1671;Barnase;Bacillus amyloliquef;['D', '8', 'G'];-1.17;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;260.3511862549433;-1.4703501105159944;H;D;8,;G
+102;1672;Barnase;Bacillus amyloliquef;['D', '8', 'S'];-0.97;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;259.20888308656095;-0.3280469421336534;-;D;8,;S
+103;1673;Barnase;Bacillus amyloliquef;['D', '12', 'G'];-1.29;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;260.1455448481519;-1.2647087037246365;H;D;12,;G
+104;1674;Barnase;Bacillus amyloliquef;['D', '12', 'S'];-0.65;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.5064129029565;0.37442324147076533;E;D;12,;S
+105;1675;Barnase;Bacillus amyloliquef;['T', '16', 'G'];-1.66;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;259.3583582717825;-0.4775221273552006;E;T;16,;G
+106;1676;Barnase;Bacillus amyloliquef;['T', '16', 'A'];-0.27;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.5821644152026;0.29867172922467944;E;T;16,;A
+107;1677;Barnase;Bacillus amyloliquef;['Y', '17', 'G'];-4.03;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;259.45050510764975;-0.5696689632224547;E;Y;17,;G
+108;1678;Barnase;Bacillus amyloliquef;['Y', '17', 'S'];-2.57;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.362926267012;0.5179098774152635;E;Y;17,;S
+109;1679;Barnase;Bacillus amyloliquef;['H', '18', 'G'];-0.70;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;254.3682808427535;4.512555301673785;E;H;18,;G
+110;1680;Barnase;Bacillus amyloliquef;['H', '18', 'A'];-1.85;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.7485450019139;0.13229114251339524;E;H;18,;A
+111;1681;Barnase;Bacillus amyloliquef;['H', '18', 'A,', 'W', '94', 'L'];-2.36;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.2470200336785;0.6338161107487963;-;HW;18,94,;AL
+112;1682;Barnase;Bacillus amyloliquef;['H', '18', 'S'];-2.28;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.41865543237105;0.462180712056238;-;H;18,;S
+113;1683;Barnase;Bacillus amyloliquef;['H', '18', 'S,', 'W', '94', 'L'];-2.59;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;257.6264499535079;1.2543861909193765;S;HW;18,94,;SL
+114;1684;Barnase;Bacillus amyloliquef;['H', '18', 'N'];-1.68;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;256.58069352007755;2.3001426243497463;-;H;18,;N
+115;1685;Barnase;Bacillus amyloliquef;['H', '18', 'N,', 'W', '94', 'L'];-1.77;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;256.42865726508165;2.452178879345638;-;HW;18,94,;NL
+116;1686;Barnase;Bacillus amyloliquef;['H', '18', 'D'];-2.56;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;257.3159725771579;1.5648635672694127;-;H;18,;D
+118;1688;Barnase;Bacillus amyloliquef;['H', '18', 'K,', 'W', '94', 'L'];-2.34;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;257.18561551468684;1.6952206297404473;S;HW;18,94,;KL
+119;1689;Barnase;Bacillus amyloliquef;['H', '18', 'R'];-1.17;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.28915531251266;0.5916808319146298;-;H;18,;R
+120;1690;Barnase;Bacillus amyloliquef;['H', '18', 'R,', 'W', '94', 'L'];-2.13;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;257.74114021716497;1.1396959272623235;-;HW;18,94,;RL
+121;1691;Barnase;Bacillus amyloliquef;['T', '26', 'D'];-0.08;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;258.2518622742114;0.6289738702158729;E;T;26,;D
+123;1693;Barnase;Bacillus amyloliquef;['S', '28', 'G'];-0.45;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;260.1824442455868;-1.301608101159502;E;S;28,;G
+124;1694;Barnase;Bacillus amyloliquef;['S', '28', 'A'];00.41;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;259.22584671100907;-0.3450105665817773;E;S;28,;A
+126;1696;Barnase;Bacillus amyloliquef;['E', '29', 'A'];-1.25;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;260.14823381306456;-1.2673976686372725;E;E;29,;A
+127;1697;Barnase;Bacillus amyloliquef;['E', '29', 'S'];-1.23;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;260.6974433749762;-1.8166072305489251;S;E;29,;S
+128;1698;Barnase;Bacillus amyloliquef;['Q', '31', 'G'];-0.98;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;259.4433251439151;-0.5624889994878117;E;Q;31,;G
+131;1701;Barnase;Bacillus amyloliquef;['G', '34', 'A'];-3.12;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;266.76480260437677;-7.883966459949477;T;G;34,;A
+132;1702;Barnase;Bacillus amyloliquef;['G', '34', 'S'];-3.20;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;266.7220509976395;-7.841214853212193;E;G;34,;S
+133;1703;Barnase;Bacillus amyloliquef;['G', '34', 'N'];-2.75;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;263.029813620118;-4.148977475690685;E;G;34,;N
+134;1704;Barnase;Bacillus amyloliquef;['G', '34', 'D'];-3.39;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;263.4148596707869;-4.53402352635959;E;G;34,;D
+135;1705;Barnase;Bacillus amyloliquef;['G', '34', 'H'];-2.65;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;267.0282059850011;-8.147369840573788;S;G;34,;H
+136;1706;Barnase;Bacillus amyloliquef;['G', '34', 'K'];-3.12;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;265.6370942384103;-6.7562580939830355;-;G;34,;K
+137;1707;Barnase;Bacillus amyloliquef;['G', '34', 'R'];-2.42;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;266.3040326098963;-7.423196465469005;-;G;34,;R
+138;1708;Barnase;Bacillus amyloliquef;['G', '34', 'T'];-3.37;;Fluorescence;Urea;J MOL BIOL 227, 544-559 (1992) PMID: 1404368;267.0757755424671;-8.194939398039821;-;G;34,;T
+142;1962;Barnase;Bacillus amyloliquef;['F', '7', 'L'];-4.60;;Fluorescence;Urea;NATURE 333, 784-786 (1988) PMID: 3386721;252.64351738167827;6.237318762749027;-;F;7,;L
+143;1963;Barnase;Bacillus amyloliquef;['T', '6', 'S'];-0.22;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;258.88620075152545;-0.005364607098158558;H;T;6,;S
+146;1966;Barnase;Bacillus amyloliquef;['T', '6', 'N'];-1.27;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;260.6242490697366;-1.7434129253093147;H;T;6,;N
+147;1967;Barnase;Bacillus amyloliquef;['T', '6', 'D'];00.11;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;261.5909898573577;-2.7101537129304347;H;T;6,;D
+148;1968;Barnase;Bacillus amyloliquef;['T', '6', 'Q'];-1.87;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;261.1897714951189;-2.308935350691627;H;T;6,;Q
+149;1969;Barnase;Bacillus amyloliquef;['T', '6', 'E'];-0.27;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;261.24289775220205;-2.3620616077747627;H;T;6,;E
+150;1970;Barnase;Bacillus amyloliquef;['T', '26', 'S'];-0.56;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;257.9187918646282;0.9620442797991018;H;T;26,;S
+151;1971;Barnase;Bacillus amyloliquef;['T', '26', 'V'];-2.31;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;260.3778167375129;-1.4969805930855955;H;T;26,;V
+154;1974;Barnase;Bacillus amyloliquef;['T', '26', 'N'];-1.29;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;258.9195660124606;-0.038729868033328785;H;T;26,;N
+155;1975;Barnase;Bacillus amyloliquef;['T', '26', 'Q'];-1.72;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;258.97618444883466;-0.09534830440736641;H;T;26,;Q
+156;1976;Barnase;Bacillus amyloliquef;['T', '26', 'E'];-0.05;;Fluorescence;Urea;NATURE 342, 296-299 (1989) PMID: 2812029;257.93045531578633;0.9503808286409594;H;T;26,;E
+159;1979;Barnase;Bacillus amyloliquef;['H', '18', 'Q'];-1.60;;Fluorescence;Urea;NATURE 340, 122-126 (1989) PMID: 2739734;258.49787872627627;0.38295741815102247;H;H;18,;Q
+167;2149;Barnase;Bacillus amyloliquef;['D', '8', 'A,', 'D', '12', 'A'];-0.80;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.50863497392714;0.3722011705001478;H;DD;8,12,;AA
+168;2150;Barnase;Bacillus amyloliquef;['D', '8', 'A,', 'V', '10', 'A'];-0.42;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;261.0449794371376;-2.164143292710321;H;DV;8,10,;AA
+169;2151;Barnase;Bacillus amyloliquef;['D', '8', 'A,', 'D', '12', 'A,', 'R', '110', 'A'];00.10;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;258.50863497392714;0.3722011705001478;H;DDD;8,12,12,;AAA
+170;2152;Barnase;Bacillus amyloliquef;['D', '12', 'A,', 'R', '110', 'A'];00.41;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;259.61207064092184;-0.731234496494551;H;DR;12,110,;AA
+171;2153;Barnase;Bacillus amyloliquef;['Y', '13', 'A,', 'Y', '17', 'A'];-4.18;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;257.1739571472212;1.706878997206104;H;YY;13,17,;AA
+172;2154;Barnase;Bacillus amyloliquef;['Y', '17', 'A,', 'T', '16', 'A'];-2.15;;Fluorescence;Urea;J MOL BIOL 224, 783-804 (1992) PMID: 1569557;257.79389037961516;1.0869457648121283;H;YT;17,16,;AA
+173;2226;Barnase;Bacillus amyloliquef;['Q', '15', 'I,', 'T', '16', 'R,', 'K', '19', 'R'];0,0875;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;258.0247481868853;0.8560879575420017;H;QTT;15,16,16,;IRR
+174;2227;Barnase;Bacillus amyloliquef;['Q', '15', 'I,', 'T', '16', 'R,', 'K', '19', 'R,', 'G', '65', 'S,', 'K', '66', 'A,', 'K', '108', 'R'];03.44;;Fluorescence;Urea;J MOL BIOL 233, 305-312 (1993) PMID: 8377205;258.0247481868853;0.8560879575420017;H;QTTTTT;15,16,16,16,16,16,;IRRRRR
+175;2260;Barnase;Bacillus amyloliquef;['W', '94', 'Y'];-1.27;;Fluorescence;Urea;J MOL BIOL 224, 759-770 (1992) PMID: 1569555;256.8529157681364;2.027920376290865;H;W;94,;Y
+176;2261;Barnase;Bacillus amyloliquef;['W', '94', 'F'];-1.06;;Fluorescence;Urea;J MOL BIOL 224, 759-770 (1992) PMID: 1569555;258.3403840288666;0.5404521155606972;G;W;94,;F
+177;2262;Barnase;Bacillus amyloliquef;['W', '94', 'L'];-1.59;;Fluorescence;Urea;J MOL BIOL 224, 759-770 (1992) PMID: 1569555;258.24763049850543;0.633205645921862;H;W;94,;L
+179;2264;Barnase;Bacillus amyloliquef;['H', '18', 'G,', 'W', '94', 'L'];-1.17;;Fluorescence;Urea;J MOL BIOL 224, 759-770 (1992) PMID: 1569555;254.04633006602836;4.834506078398931;H;HW;18,94,;GL
+189;2392;Barnase;Bacillus amyloliquef;['Y', '13', 'F'];-0.41;;Fluorescence;Urea;J MOL BIOL 218, 465-475 (1991) PMID: 2010920;259.05605779611466;-0.17522165168736592;H;Y;13,;F
+190;2393;Barnase;Bacillus amyloliquef;['Y', '17', 'F'];-0.30;;Fluorescence;Urea;J MOL BIOL 218, 465-475 (1991) PMID: 2010920;259.4064029058895;-0.5255667614621871;S;Y;17,;F
+191;2394;Barnase;Bacillus amyloliquef;['Y', '13', 'F,', 'Y', '17', 'F'];-0.61;;Fluorescence;Urea;J MOL BIOL 218, 465-475 (1991) PMID: 2010920;259.72278111901306;-0.8419449745857719;S;YY;13,17,;FF
+199;2920;Barnase;Bacillus amyloliquef;['R', '69', 'S'];-2.72;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;257.5134229285296;1.3674132158976704;H;R;69,;S
+200;2921;Barnase;Bacillus amyloliquef;['D', '93', 'N'];-4.11;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;259.3957174518333;-0.5148813074060286;H;D;93,;N
+201;2922;Barnase;Bacillus amyloliquef;['R', '69', 'S,', 'D', '93', 'N'];-3.49;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;258.54547967255627;0.33535647187102313;H;RD;69,93,;SN
+202;2924;Barnase;Bacillus amyloliquef;['R', '69', 'M'];-2.12;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;260.1071898500596;-1.2263537056323344;-;R;69,;M
+203;2925;Barnase;Bacillus amyloliquef;['R', '83', 'K'];-4.13;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;259.1644594169497;-0.28362327252239083;-;R;83,;K
+204;2926;Barnase;Bacillus amyloliquef;['R', '83', 'Q'];-2.05;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;260.0792404521204;-1.1984043076931243;-;R;83,;Q
+205;2927;Barnase;Bacillus amyloliquef;['D', '75', 'N'];-4.80;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;260.43564132830994;-1.5548051838826495;S;D;75,;N
+206;2928;Barnase;Bacillus amyloliquef;['R', '83', 'K,', 'D', '75', 'N'];-5.40;;Fluorescence;Urea;BIOCHEMISTRY 35, 6786-6794 (1996) PMID: 8639630;260.43921890201347;-1.5583827575861733;E;RD;83,75,;KN
+209;3685;Barnase;Bacillus amyloliquef;['D', '12', 'A,', 'T', '16', 'R'];00.28;;Fluorescence;Urea;BIOCHEMISTRY 29, 9343-9352 (1990) PMID: 2248951;258.6082943932578;0.27254175116951274;S;DT;12,16,;AR
+212;5072;Barnase;Bacillus amyloliquef;['E', '73', 'A'];-2.50;;Fluorescence;Thermal;BIOCHEMISTRY 34, 9424-9433 (1995) PMID: 7626612;258.96612926814714;-0.08529312371985043;E;E;73,;A
