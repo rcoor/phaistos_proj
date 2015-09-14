@@ -6,49 +6,60 @@
 #### Imports & dependicies ####
 import pandas as pd
 
+class master(object):
 
-# This will print the complete data-frame.
-def print_full(x):
-	import pandas as pd
-	pd.set_option('display.max_rows', len(x))
-	print(x)
-	pd.reset_option('display.max_rows')
+	def __init__(self, csvfile):
+		self.csvfile = csvfile
 
-def protherm_read_and_group(protherm_csv):
-	
-	# This function reads a csv file with protherm data.
-	# Null values in target columns are removed.
-	# Data is grouped by the proteins wild-type PDB name.
-	input_csv = protherm_csv
+	# This will print a complete dataframe (normally pandas dataframes are shortened).
+	def print_full(self):
+		pd.set_option('display.max_rows', len(self.df))
+		return(self.df)
+		pd.reset_option('display.max_rows')
 
-	df = pd.read_csv(input_csv, sep=';', decimal = '.').sort()
-	
-	df = df.dropna(subset=(['ddG','PDB_wild','Mutation']))
-	
-def no_comma(x):
-		x = float(x.replace(',','.'))
-		return x
+	# Read CSV file with ddG data.
+	def ReadGroup(self):
+		# This function reads a csv file with protherm data.
+		# Null values in target columns are removed.
+		# Data is grouped by the proteins wild-type PDB name.
+		self.df = pd.read_csv(self.csvfile, sep=';', decimal = '.').sort()
+		self.df = self.df.dropna(subset=(['ddG','PDB_wild','Mutation']))
+		return self.df
 
-	# ddG data is converted to float.
-	df[['ddG','T']] = df[['ddG','T']].apply(no_comma)
+	def organize_data(self):
 
-	# The is all the proteins we got that have ddG values.
-	unique_pdb = df['PDB_wild'].unique()
+		# Commas are removed and replaced by a dot.
+		no_comma = lambda x: float(x.replace(',','.'))
+		self.df['ddG'] = self.df['ddG'].apply(no_comma)
 
-	# The data is grouped by a column name.
-	df_grp = df.groupby(['PDB_wild'])
-	
-	# Remove certain duplicates within subsets.
-	df_dict = {}
-	for i, k in df_grp:
-		
-		k.drop_duplicates(subset=['Mutation'])
+		# The is all the proteins we got that have ddG values.
+		unique_pdb = self.df['PDB_wild'].unique()
 
-		df_dict[i] = k
+		# The data is grouped by a column name.
+		self.df_grp = self.df.groupby(['PDB_wild'])
 
-	return df_dict
-		
+		# Remove certain duplicates within subsets.
+		self.df_dict = {}
+		for i, k in self.df_grp:
+			k.drop_duplicates(subset=['Mutation'])
+			self.df_dict[i] = k
 
-print protherm_read_and_group('alldata.csv')
+		return self.df_dict
+
+	# Counter for counting amount of proteins and mutations left
+	def counter(self):
+		self.sum_proteins = 0
+		self.sum_mutations = 0
+		for i in self.df_dict.keys():
+			self.sum_proteins += 1
+			self.sum_mutations += len(self.df_dict[i])
+
+		return self.sum_proteins, self.sum_mutations
 
 
+
+readdata = master('alldata.csv')
+readdata.ReadGroup()
+
+proteinsData = readdata.organize_data()
+print readdata.counter()
