@@ -1,7 +1,7 @@
 SCWRL  configuration_file     /Users/thorn/Scwrl4.ini
 SCWRL  rotamer_library        905791938 @  11-Jul-2008 17:55:00
 SCWRL  global_energy_minimum  552.04
-SCWRL  calculation_time       0.3 sec
+SCWRL  calculation_time       0.2 sec
 ATOM      1  N   LYS A   2      15.660   1.796  33.911  1.00                 N  
 ATOM      2  CA  LYS A   2      15.562   0.390  33.443  1.00                 C  
 ATOM      3  C   LYS A   2      14.156   0.065  32.948  1.00                 C  

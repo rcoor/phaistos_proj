@@ -6,7 +6,7 @@
 #### Imports & dependicies ####
 import pandas as pd
 
-class master(object):
+class sortingClass(object):
 
 	def __init__(self, csvfile):
 		self.csvfile = csvfile
@@ -17,16 +17,12 @@ class master(object):
 		return(self.df)
 		pd.reset_option('display.max_rows')
 
-	# Read CSV file with ddG data.
-	def ReadGroup(self):
+	def organize_data(self):
 		# This function reads a csv file with protherm data.
 		# Null values in target columns are removed.
 		# Data is grouped by the proteins wild-type PDB name.
 		self.df = pd.read_csv(self.csvfile, sep=';', decimal = '.').sort()
 		self.df = self.df.dropna(subset=(['ddG','PDB_wild','Mutation']))
-		return self.df
-
-	def organize_data(self):
 
 		# Commas are removed and replaced by a dot.
 		no_comma = lambda x: float(x.replace(',','.'))
@@ -55,11 +51,3 @@ class master(object):
 			self.sum_mutations += len(self.df_dict[i])
 
 		return self.sum_proteins, self.sum_mutations
-
-
-
-readdata = master('alldata.csv')
-readdata.ReadGroup()
-
-proteinsData = readdata.organize_data()
-print readdata.counter()
