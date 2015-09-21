@@ -55,22 +55,28 @@ class getPDB_mutate(object):
                 pass
 
         'Dataframe with the amino acids position as its index'
-        self.df_position = pd.DataFrame(seq_list, index=pos_list)
-        return self.df_position
+        self.sequencePositions = pd.DataFrame(seq_list, index=pos_list)[0]
+        return self.sequencePositions
 
     def make_mutation(self):
-        self.df_position
+        self.sequencePositions
 
-    # def make_mutation(self):
-    #     self.mutation = self.df['Mutation']
-    #
-    #     for i in range(len(self.mutation)):
-    #         clean_chain = self.df_position[0]
-    #
-    #         true_i = self.mutation.index[i]
-    #
-    #         try:
-    #             if self.mutation[true_i][0] == "WILD":
+        for i in range(len(self.df['Mutation'])):
+            print i
+            true_i = self.df['Mutation'].index[i]
+            print true_i
+
+            try:
+                if self.df['Mutation'][0] == "WILD":
+                    print self.df['Mutation'][true_i][0]
+                    save_dest = 'mutation_files/'+self.PDB_name+'/'
+                    if not os.path.exists(save_dest):
+                        os.makedirs(save_dest)
+                else:
+                    pass
+            except KeyError:
+                pass
+    #             if self.df['Mutation'][0] == "WILD":
     #                 print self.mutation[true_i][0]
     #                 'Save the chains with mutations as text files'
     #                 save_dest = 'mutation_files/'+self.PDB_name+"/"
@@ -83,7 +89,7 @@ class getPDB_mutate(object):
     #
     #                 save_name = save_dest+mut_string
     #                 text_file = open(save_name, "w")
-    #                 text_file.write(clean_chain.sum())
+    #                 text_file.write(self.sequencePositions.sum())
     #                 text_file.close()
     #
     #             else:

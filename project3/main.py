@@ -17,9 +17,10 @@ readdata.counter()
 #     key = proteinsData.keys()[i]
 #     PDBClass = getPDB_mutate(key, proteinsData[key])
 
-i = 5
+i = 15
 key = proteinsData.keys()[i]
+#print proteinsData[key]
 PDBClass = getPDB_mutate(key, proteinsData[key])
 
 PDBClass.amino_index()
-print PDBClass.make_mutation()
+PDBClass.make_mutation()
