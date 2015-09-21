@@ -17,7 +17,7 @@ readdata.counter()
 #     key = proteinsData.keys()[i]
 #     PDBClass = getPDB_mutate(key, proteinsData[key])
 
-i = 15
+i = 2
 key = proteinsData.keys()[i]
 #print proteinsData[key]
 PDBClass = getPDB_mutate(key, proteinsData[key])

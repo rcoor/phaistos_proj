@@ -44,7 +44,7 @@ class getPDB_mutate(object):
         for i in range(len(seq)):
             seq_list.append(seq[i])
 
-        'Return position of amino acids in the protein'
+        #Return position of amino acids in the protein
         pos_list = []
         for i in range(len(self.chain)):
             try:
@@ -54,28 +54,107 @@ class getPDB_mutate(object):
             except KeyError:
                 pass
 
-        'Dataframe with the amino acids position as its index'
+        #Dataframe with the amino acids position as its index.
         self.sequencePositions = pd.DataFrame(seq_list, index=pos_list)[0]
         return self.sequencePositions
 
     def make_mutation(self):
         self.sequencePositions
+        self.PDB_name
 
-        for i in range(len(self.df['Mutation'])):
+        # A folder is created with the given proteins name.
+        save_dest = 'mutation_files/'+self.PDB_name
+        if not os.path.exists(save_dest):
+            os.makedirs(save_dest)
+
+        # This is the wildtype sequence.
+        wildtype_sequence = self.sequencePositions.sum()
+
+        # Here we save the wildtype sequence in the given protein folder.
+        save_name = save_dest+'/'+'wildtype'
+        text_file = open(save_name, 'w')
+        text_file.write(self.sequencePositions.sum())
+        text_file.close()
+
+    	#Divide by 3 to get number of mutations per chain.
+        for i in self.df['Mutation']:
             print i
-            true_i = self.df['Mutation'].index[i]
-            print true_i
+            no_of_mut = len(i)/3
+            print no_of_mut
 
-            try:
-                if self.df['Mutation'][0] == "WILD":
-                    print self.df['Mutation'][true_i][0]
-                    save_dest = 'mutation_files/'+self.PDB_name+'/'
-                    if not os.path.exists(save_dest):
-                        os.makedirs(save_dest)
-                else:
-                    pass
-            except KeyError:
-                pass
+
+            # #z is controls the index aka the position of each mutation if more than one are present
+            # z = 1
+            #
+            # mutation_amino_tag = ""
+            # mutation_pos_tag = ""
+            # wt_amino_tag = ""
+            # for k in range(no_of_mut):
+            #
+            #     mutation_pos = mutation[true_i][z]
+            #     mutation_amino = mutation[true_i][z+1]
+            #     wt_amino = mutation[true_i][z-1]
+            #
+            #     'Remove some misplaced commas'
+            #     mutation_pos = re.sub('[, ]', '', mutation_pos)
+            #     mutation_amino = re.sub('[, ]', '', mutation_amino)
+            #
+            #     mutation_amino_tag += mutation_amino
+            #     wt_amino_tag += wt_amino
+            #     mutation_pos_tag += mutation_pos+","
+            #
+            #
+            #
+            #     clean_chain[int(mutation_pos)] = mutation_amino
+            #
+            #     z =+ 4
+            #
+            #     'Save the files'
+            #     Save(PDB_name,mutation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        # for i in range(len(self.df['Mutation'])):
+        #     print i
+        #     true_i = self.df['Mutation'].index[i]
+        #     print true_i
+        #
+        #     try:
+        #
+        #         if self.df['Mutation'][0] == "WILD":
+        #             print self.df['Mutation'][true_i][0]
+        #             save_dest = 'mutation_files/'+self.PDB_name+'/'
+        #             if not os.path.exists(save_dest):
+        #                 os.makedirs(save_dest)
+        #
+        #             mut_string = str(true_i)+'#'
+        #             for j in range(len(self.df['Mutation']['true_i'])):
+        #                 mut_string = mut_string+self.df['Mutation']['true_i'][j]
+        #             save_name = save_dest+mut_string
+        #             text_file = open(save_name, 'w')
+        #             text_file.write(self.sequencePositions.sum())
+        #             text_file.close()
+        #         else:
+        #             no_of_mut = len(self.df['Mutation'][true_i])/3
+        #     except KeyError:
+        #         pass
+
+
+
+
+
     #             if self.df['Mutation'][0] == "WILD":
     #                 print self.mutation[true_i][0]
     #                 'Save the chains with mutations as text files'
