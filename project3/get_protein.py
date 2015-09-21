@@ -7,6 +7,7 @@ import pandas as pd
 from Bio.PDB.DSSP import DSSP
 import os
 import re
+import copy
 class getPDB_mutate(object):
 
     def __init__(self, PDB_name, df):
@@ -23,7 +24,7 @@ class getPDB_mutate(object):
         structure = self.parser.get_structure(self.PDB_name,self.pdbl.retrieve_pdb_file(self.PDB_name))
 
         #io.set_structure(structure[0]['A'])
-        'Choosing chain A'
+        # Choosing chain A
         model = structure[0]
         self.chain = model['A']
         io.set_structure(self.chain)
@@ -36,7 +37,8 @@ class getPDB_mutate(object):
 
     def amino_index(self):
 
-        'Get the sequence as a string'
+        # Get the sequence as a string
+        seq = ""
         for pp in self.ppb.build_peptides(self.chain):
             seq = pp.get_sequence().lower()
 
@@ -78,9 +80,49 @@ class getPDB_mutate(object):
 
     	#Divide by 3 to get number of mutations per chain.
         for i in self.df['Mutation']:
-            print i
-            no_of_mut = len(i)/3
-            print no_of_mut
+            # Here we get a proper copy of the positions of the amino acids (prevents overriding of the original).
+            copySequence = copy.deepcopy(self.sequencePositions)
+            mutations = []
+            k = 0
+            for j in i.split(" "):
+                j = re.sub('[,]', '', j)
+                mutations.append(j)
+                k += 1
+
+            # This is a the wildtype.
+            if len(mutations) == 1:
+                pass
+
+            # This is for mutations. We check how many there are.
+            elif len(mutations) >= 3:
+                AmountMutations = len(mutations)/3
+                n = 0
+
+                # Here we introduce the mutation.
+                for p in range(AmountMutations):
+
+                    copySequence[int(mutations[n+1])] = mutations[n+2]
+                    n += 3
+
+            # Here we save the mutated sequence in the given protein folder.
+            save_name = save_dest+'/'+re.sub('[ ]', '', i)
+            text_file = open(save_name, 'w')
+            text_file.write(copySequence.sum())
+            text_file.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             # #z is controls the index aka the position of each mutation if more than one are present
