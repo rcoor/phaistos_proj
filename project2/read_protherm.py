@@ -17,8 +17,8 @@ def read_protherm(input_csv):
 	input_csv = input_path+input_csv
 	#setlocale(LC_NUMERIC, 'de_DE.UTF-8')
 	#For graphical purposes
-	#pd.set_option('display.line_width', 5000) 
-	#pd.set_option('display.max_columns', 60) 
+	#pd.set_option('display.line_width', 5000)
+	#pd.set_option('display.max_columns', 60)
 
 	import numpy as np
 	#import matplotlib.pyplot as plt
@@ -31,13 +31,13 @@ def read_protherm(input_csv):
 	'Clean up the data by defining what we want to remove'
 	data = data[pd.notnull(data['ddG'])] #Remove rows with null data in ddG
 	data = data.drop_duplicates('Mutation') #Remove rows with duplicates in Mutation
-	
+
 	'Let us handle commas like a boss'
 	#data['ddG'] = data['ddG'].apply(atof)
 	#data['ddG'] = data['ddG'].astype(float)
 
 	data['Mutation'] = data['Mutation'].str.split(' ')
-	
+
 	'Return the dataframe'
 	return data
 
@@ -60,7 +60,7 @@ def amino_index(PDB_name):
 
 	'If the structure hasnt been downloaed then it will - else parse it'
 	structure = parser.get_structure(PDB_name,pdbl.retrieve_pdb_file(PDB_name))
-	
+
 
 	#io.set_structure(structure[0]['A'])
 
@@ -72,7 +72,7 @@ def amino_index(PDB_name):
 
 	save_pdb = PDB_name+".pdb"
 	io.save(save_pdb)
-	
+
 	'Get the sequence as a string'
 	for pp in ppb.build_peptides(chain):
 		seq = pp.get_sequence().lower()
@@ -102,7 +102,7 @@ def save_mutated_chains(input_csv,PDB_name):
 
 	def Save(PDB_name,mutation):
 		true_i = mutation.index[i]
-		
+
 		'Save the chains with mutations as text files'
 		save_dest = 'mutation_files/'+PDB_name+"/"
 		if not os.path.exists(save_dest):
@@ -157,7 +157,7 @@ def save_mutated_chains(input_csv,PDB_name):
 					wt_amino_tag += wt_amino
 					mutation_pos_tag += mutation_pos+","
 
-					
+
 
 					clean_chain[int(mutation_pos)] = mutation_amino
 
@@ -176,7 +176,7 @@ def save_mutated_chains(input_csv,PDB_name):
 	return [wt_amino_l, mutation_pos_tag_l, mutation_amino_tag_l]
 
 def scwrl(PDB_name):
-	import os 
+	import os
 
 	dir_name = "mutation_files/"+PDB_name
 	lsdir = os.listdir(dir_name)
@@ -205,7 +205,7 @@ def mumu(phaistos_bin_dir,pdb_dir,input_csv):
 		from Bio.Seq import Seq
 		from Bio import SeqIO
 		from Bio.Alphabet import IUPAC
-		
+
 		io = PDBIO()
 		import pandas as pd
 		from Bio.PDB.DSSP import DSSP
@@ -275,15 +275,15 @@ def mumu(phaistos_bin_dir,pdb_dir,input_csv):
 
 			'we will clean it up a bit and put it into a list'
 			log_val = []
-			
+
 			f_split_sep = direct_output.split(':')
-			
+
 			'new list containing only log values'
 			for i in range(len(f_split_sep)):
 				'converting -logp to logp'
 				log_val.append(f_split_sep[i].rstrip('\t\n').split(',')[:1][0])
 
-			'remove header'	
+			'remove header'
 			del log_val[0]
 
 			log_array = np.asarray(log_val).astype(np.float)
@@ -308,7 +308,7 @@ def mumu(phaistos_bin_dir,pdb_dir,input_csv):
 
 			data_frame['log(p)'][int(index)] = sum_logp
 			data_frame['d_log(p)'][int(index)] = data_frame['log(p)'][0]-sum_logp
-	
+
 	data_frame['dssp'] = dssp_list
 
 
@@ -342,7 +342,7 @@ for i in range(len(input_csv_list)):
 
 	phaistos_bin_dir = "/Users/thorn/phaistos/build/bin/"
 	pdb_dir = "/Users/thorn/phaistos_proj/project2/mutation_files/"+PDB_name+"_mutated/"
-	
+
 
 
 	#print print_full(read_protherm(input_csv)['Mutation'])
@@ -355,7 +355,7 @@ for i in range(len(input_csv_list)):
 	data_frame['Mut_AA'] = df_mut[2]
 
 
-	
+
 
 	save_path = "/Users/thorn/phaistos_proj/project2/df_output/"
 	save_name = PDB_name+"_data_frame.csv"
@@ -369,7 +369,3 @@ for i in range(len(input_csv_list)):
 stop = timeit.default_timer()
 
 print stop - start
-
-
-
-

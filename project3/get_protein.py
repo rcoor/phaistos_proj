@@ -6,56 +6,89 @@ io = PDBIO()
 import pandas as pd
 from Bio.PDB.DSSP import DSSP
 import os
-class getPDB(object):
+import re
+class getPDB_mutate(object):
 
-	def __init__(self, PDB_name):
-		self.PDB_name = PDB_name
+    def __init__(self, PDB_name, df):
+        self.PDB_name = PDB_name
+        self.df = df
+        'This function looks at a protein structure and retrieve its amino acids.'
+        'Protein tructures often have amino acid chains that are truncated.'
+        'This function correctly labels amino acids according to their position in the protein'
+        self.pdbl= PDBList()
+        self.parser= PDBParser()
+        self.ppb= PPBuilder()
 
-		'This function looks at a protein structure and retrieve its amino acids.'
-		'Protein tructures often have amino acid chains that are truncated.'
-		'This function correctly labels amino acids according to their position in the protein'
+        'If the structure hasnt been downloaded then it will - else parse it'
+        structure = self.parser.get_structure(self.PDB_name,self.pdbl.retrieve_pdb_file(self.PDB_name))
 
+        #io.set_structure(structure[0]['A'])
+        'Choosing chain A'
+        model = structure[0]
+        self.chain = model['A']
+        io.set_structure(self.chain)
 
-		self.pdbl= PDBList()
-		self.parser= PDBParser()
-		self.ppb= PPBuilder()
+        if not os.path.exists("wildtypes"):
+            os.makedirs("wildtypes")
 
-		'If the structure hasnt been downloaded then it will - else parse it'
-		structure = self.parser.get_structure(self.PDB_name,self.pdbl.retrieve_pdb_file(self.PDB_name))
+        save_pdb = "wildtypes/"+self.PDB_name+".pdb"
+        io.save(save_pdb)
 
-		#io.set_structure(structure[0]['A'])
-		'Choosing chain A'
-		model = structure[0]
-		self.chain = model['A']
-		io.set_structure(self.chain)
+    def amino_index(self):
 
-		if not os.path.exists("wildtypes"):
-			os.makedirs("wildtypes")
+        'Get the sequence as a string'
+        for pp in self.ppb.build_peptides(self.chain):
+            seq = pp.get_sequence().lower()
 
-		save_pdb = "wildtypes/"+self.PDB_name+".pdb"
-		io.save(save_pdb)
+        seq_list = []
+        for i in range(len(seq)):
+            seq_list.append(seq[i])
 
-	def amino_index(self):
+        'Return position of amino acids in the protein'
+        pos_list = []
+        for i in range(len(self.chain)):
+            try:
+                residue = self.chain[i]
+                pos_list.append(i)
 
-		'Get the sequence as a string'
-		for pp in self.ppb.build_peptides(self.chain):
-			seq = pp.get_sequence().lower()
+            except KeyError:
+                pass
 
-		seq_list = []
-		for i in range(len(seq)):
-			seq_list.append(seq[i])
+        'Dataframe with the amino acids position as its index'
+        self.df_position = pd.DataFrame(seq_list, index=pos_list)
+        return self.df_position
 
-		'Return position of amino acids in the protein'
-		pos_list = []
-		for i in range(len(self.chain)):
-			try:
-				residue = self.chain[i]
-				pos_list.append(i)
+    def make_mutation(self):
+        self.df_position
 
-			except KeyError:
-				pass
-
-		'Dataframe with the amino acids position as its index'
-		seq_pos = pd.DataFrame(seq_list, index=pos_list)
-
-		return seq_pos
+    # def make_mutation(self):
+    #     self.mutation = self.df['Mutation']
+    #
+    #     for i in range(len(self.mutation)):
+    #         clean_chain = self.df_position[0]
+    #
+    #         true_i = self.mutation.index[i]
+    #
+    #         try:
+    #             if self.mutation[true_i][0] == "WILD":
+    #                 print self.mutation[true_i][0]
+    #                 'Save the chains with mutations as text files'
+    #                 save_dest = 'mutation_files/'+self.PDB_name+"/"
+    #                 if not os.path.exists(save_dest):
+    #                     os.makedirs(save_dest)
+    #
+    #                 mut_string = str(true_i)+"#"
+    #                 for j in range(len(self.mutation[true_i])):
+    #                     mut_string = mut_string+self.mutation[true_i][j]
+    #
+    #                 save_name = save_dest+mut_string
+    #                 text_file = open(save_name, "w")
+    #                 text_file.write(clean_chain.sum())
+    #                 text_file.close()
+    #
+    #             else:
+    #                 'Divide by 3 to get number of mutations per chain'
+    #                 no_of_mut = len(mutation[true_i])/3
+    #
+    #         except KeyError:
+    #           pass
