@@ -20,10 +20,10 @@ class getPDB_mutate(object):
         self.parser= PDBParser()
         self.ppb= PPBuilder()
 
-        'If the structure hasnt been downloaded then it will - else parse it'
+        # If the structure hasnt been downloaded then it will - else parse it.
         structure = self.parser.get_structure(self.PDB_name,self.pdbl.retrieve_pdb_file(self.PDB_name))
 
-        #io.set_structure(structure[0]['A'])
+        # io.set_structure(structure[0]['A'])
         # Choosing chain A
         model = structure[0]
         self.chain = model['A']
@@ -78,6 +78,7 @@ class getPDB_mutate(object):
         text_file.write(self.sequencePositions.sum())
         text_file.close()
 
+        count = 0
     	#Divide by 3 to get number of mutations per chain.
         for i in self.df['Mutation']:
             # Here we get a proper copy of the positions of the amino acids (prevents overriding of the original).
@@ -105,10 +106,12 @@ class getPDB_mutate(object):
                     n += 3
 
             # Here we save the mutated sequence in the given protein folder.
-            save_name = save_dest+'/'+re.sub('[ ]', '', i)
+            save_name = save_dest+'/'+"#"+str(count)+"_"+re.sub('[ ]', '', i)
             text_file = open(save_name, 'w')
             text_file.write(copySequence.sum())
             text_file.close()
+
+            count+=1
 
 
 

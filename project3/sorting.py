@@ -5,6 +5,7 @@
 
 #### Imports & dependicies ####
 import pandas as pd
+import pickle
 
 class sortingClass(object):
 
@@ -40,6 +41,8 @@ class sortingClass(object):
 			k.drop_duplicates(subset=['Mutation'])
 			self.df_dict[i] = k
 
+		# The Pandas dataframe is saved as a pickle! This is used again in the mumu.py.
+		pickle.dump(self.df_dict, open("save.p", "wb"))
 		return self.df_dict
 
 	# Counter for counting amount of proteins and mutations left

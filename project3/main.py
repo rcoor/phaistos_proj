@@ -3,6 +3,8 @@ from sorting import sortingClass
 
 from get_protein import getPDB_mutate
 
+from mutate import mutatePDB
+
 import os
 # from mutate import save_mutated_chains
 
@@ -40,8 +42,18 @@ class mutate(object):
             except (KeyError, ValueError):
                 pass
 
+
+    def pdb(self):
+        funcClass = mutatePDB('mutation_files')
+        funcClass.get_pdb_names()
+        funcClass.scwrl()
+
+
+
+
 # Let's start mutating strings.
 mutate('alldata.csv').strings()
+mutate('alldata.csv').pdb()
 # Counting amount of mutations.
 cpt = sum([len(files) for r, d, files in os.walk("mutation_files")])
 print cpt
